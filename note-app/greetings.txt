@@ -1,0 +1,4 @@
+Hello worldHello worldHello Mirek!Hello ${user.username}!Hello Mirek!Hello Mirek!
+Hello Mirek! You are 25.
+Hello Mirek! You are 25.
+Hello Mirek! You are 25.
