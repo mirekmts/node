@@ -4,7 +4,11 @@
   "description": "Simple chat app",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "6.10.3"
   },
   "author": "Miroslaw Stasiak",
   "license": "ISC",

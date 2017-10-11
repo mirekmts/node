@@ -17,7 +17,9 @@ $(function() {
     });
 
     socket.on('new message', (data) => {
-        $chat.append('<div class="well"><strong>' + data.user + '</strong>:' + data.msg + '</div>')
+        var d = new Date(); // for now
+        var messageTime = d.getHours() + ':' + d.getMinutes() + ':' + d.getSeconds()
+        $chat.prepend('<div class="well"><strong>' + data.user + ' - ' + messageTime + '</strong>:' + data.msg + '</div>')
     });
 
     $userForm.submit((e) => {

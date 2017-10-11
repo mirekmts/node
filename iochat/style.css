@@ -16,3 +16,7 @@ body {
 #messageArea {
     display: none;
 }
+
+.p-b-15 {
+    padding-bottom: 15px;
+}
